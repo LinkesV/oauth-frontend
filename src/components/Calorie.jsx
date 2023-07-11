@@ -51,7 +51,7 @@ function Calorie() {
 
        
         try{
-            await fetch("http://localhost:4000/updatecalorie", {
+            await fetch("https://oauth-backend-hhb3.onrender.com/updatecalorie", {
                method: "POST", 
                headers: {
                    'Access-Control-Allow-Origin':true,
@@ -87,7 +87,7 @@ function Calorie() {
             deletecalorie({index: value})
         )
         try{
-            await fetch("http://localhost:4000/updatecalorie", {
+            await fetch("https://oauth-backend-hhb3.onrender.com/updatecalorie", {
                method: "POST", 
                headers: {
                    'Access-Control-Allow-Origin':true,

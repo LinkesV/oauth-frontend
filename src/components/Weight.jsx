@@ -27,7 +27,7 @@ function Weight() {
      const weighttracker = useSelector((state)=>{return state.weighttracker})
     useEffect(()=>{
         try{
-            fetch(`http://localhost:4000/login/success/${id}`, {
+            fetch(`https://oauth-backend-hhb3.onrender.com/login/success/${id}`, {
                 method: "GET", 
                 headers: {
                 'Access-Control-Allow-Origin':true,
@@ -98,7 +98,7 @@ function Weight() {
         sortweight()
       )
       try{
-        await fetch("http://localhost:4000/updateweight", {
+        await fetch("https://oauth-backend-hhb3.onrender.com/updateweight", {
            method: "POST", 
            headers: {
                'Access-Control-Allow-Origin':true,
@@ -133,7 +133,7 @@ function Weight() {
       )
 
       try{
-        await fetch("http://localhost:4000/updateweight", {
+        await fetch("https://oauth-backend-hhb3.onrender.com/updateweight", {
            method: "POST", 
            headers: {
                'Access-Control-Allow-Origin':true,

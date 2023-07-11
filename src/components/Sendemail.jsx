@@ -13,7 +13,7 @@ function Sendemail() {
     const emailHandler = (e)=>{
         e.preventDefault()
         try{
-          fetch("http://localhost:4000/sendemail", {
+          fetch("https://oauth-backend-hhb3.onrender.com/sendemail", {
               method: "POST", 
               headers: {
                   'Access-Control-Allow-Origin':true,
@@ -45,7 +45,7 @@ function Sendemail() {
                     username: res.username,
                     message: `
                     Your OTP IS ${res.OTP}
-                    Click on this url to proceed: https://localhost:3000/forgotpsw/${res.id}
+                    Click on this url to proceed: https://mellifluous-sorbet-281589.netlify.app/forgotpsw/${res.id}
                     `
                   },
     

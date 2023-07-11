@@ -10,7 +10,7 @@ function Navigation() {
   const user = useSelector((state)=>{return state})
   const dispatch = useDispatch()
   const logoutHandler = ()=>{
-    window.open("http://localhost:4000/logout","_self");
+    window.open("https://oauth-backend-hhb3.onrender.com/logout","_self");
     dispatch(
       clearuser()
     )

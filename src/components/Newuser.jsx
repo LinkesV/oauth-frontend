@@ -34,7 +34,7 @@ function Newuser() {
         result = false
       }
      if(result){
-      fetch("http://localhost:4000/createuser", {
+      fetch("https://oauth-backend-hhb3.onrender.com/createuser", {
         method: "POST", 
         headers: {
             'Access-Control-Allow-Origin':true,

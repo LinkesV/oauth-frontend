@@ -14,7 +14,7 @@ function Otp() {
   const otpHandler = (e)=>{
     e.preventDefault()
     try{
-      fetch("http://localhost:4000/checkotp", {
+      fetch("https://oauth-backend-hhb3.onrender.com/checkotp", {
           method: "POST", 
           headers: {
               'Access-Control-Allow-Origin':true,

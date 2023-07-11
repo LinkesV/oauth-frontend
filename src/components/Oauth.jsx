@@ -16,7 +16,7 @@ function Oauth() {
   const submitHandler = (e) => {
     e.preventDefault()
     try{
-      fetch("http://localhost:4000/normallogin", {
+      fetch("https://oauth-backend-hhb3.onrender.com/normallogin", {
           method: "POST", 
           headers: {
               'Access-Control-Allow-Origin':true,
@@ -47,16 +47,16 @@ function Oauth() {
   }
 
   const googleauthHandler = () => {
-    window.open("http://localhost:4000/google", "_self")
+    window.open("https://oauth-backend-hhb3.onrender.com/google", "_self")
   }
 
   const githubauthHandler = () => {
-    window.open("http://localhost:4000/github", "_self")
+    window.open("https://oauth-backend-hhb3.onrender.com/github", "_self")
   }
 
   const facebookauthHandler = () => {
    
-    window.open("http://localhost:4000/facebook", "_self")
+    window.open("https://oauth-backend-hhb3.onrender.com/facebook", "_self")
 
   }
   

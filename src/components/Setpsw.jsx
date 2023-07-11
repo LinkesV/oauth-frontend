@@ -16,7 +16,7 @@ function Setpsw() {
     e.preventDefault()
     if(psw === cfmpsw){
       try{
-        fetch("http://localhost:4000/changepsw", {
+        fetch("https://oauth-backend-hhb3.onrender.com/changepsw", {
             method: "POST", 
             headers: {
                 'Access-Control-Allow-Origin':true,

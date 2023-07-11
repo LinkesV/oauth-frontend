@@ -10,7 +10,7 @@ function Tracker() {
      const navigate = useNavigate()
   useEffect(()=>{
     try{
-        fetch(`http://localhost:4000/login/success/${id}`, {
+        fetch(`https://oauth-backend-hhb3.onrender.com/login/success/${id}`, {
             method: "GET", 
             headers: {
             'Access-Control-Allow-Origin':true,
