@@ -1,0 +1,22 @@
+.formparent{
+    background: url(https://imgix.bustle.com/uploads/shutterstock/2020/11/10/5ab5aefc-1a15-4002-b06c-a4c776c9f7b9-shutterstock-1134921437.jpg?w=1200&h=630&fit=crop&crop=focalpoint&fm=jpg&fp-x=0.556&fp-y=0.544);
+    background-repeat: no-repeat;
+    background-size: 100vw, 100vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.otpform{
+    background-color: rgba(255, 255, 255, 0.767);
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 0 3px black;
+    padding-top: 60px;
+}
